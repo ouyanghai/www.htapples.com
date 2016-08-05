@@ -1,8 +1,8 @@
 <?php
-//$command = mysql_connect("23.248.162.241","debug","hdp@5C01") or die("mysql connect error!");
-//mysql_select_db("web",$command);
-$command = mysql_connect("192.168.1.122","admin","admin") or die("mysql connect error!");
-mysql_select_db("haodianpu",$command);
+$command = mysql_connect("23.248.162.241","debug","hdp@5C01") or die("mysql connect error!");
+mysql_select_db("web",$command);
+//$command = mysql_connect("192.168.1.122","admin","admin") or die("mysql connect error!");
+//mysql_select_db("haodianpu",$command);
 mysql_query("set names 'utf8'");
 $ftype = array(
     'jryw'=>'今日要闻',

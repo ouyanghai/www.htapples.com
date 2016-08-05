@@ -5,8 +5,8 @@ $cyres = mysql_query("select id,title from `tg_jiaju` where type='chanpin' order
 $cres = mysql_query("select id,title,pic from `tg_jiaju` where type='cyjj' and is_pic=1 order by time desc limit 4");
 ?>
 <div class="right_listyemian">
-    <div style="width:200px;">
-    <script type="text/javascript" src="http://local.haodianpu.com/show.php?aid=59&param=250*250"></script>  
+    <div style="width:250px;">
+    <script type="text/javascript" src="http://i.haodianpu.com/show.php?aid=59&param=250*250"></script>  
     </div>
     <div class="con_rl">
         <div class="tit_conrl">
